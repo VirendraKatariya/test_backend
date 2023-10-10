@@ -21,7 +21,7 @@ router.get(
 			});
 
 		res.status(200).json({
-			msg: `All Members`,
+			msg: `All Members Find Successful`,
 			data: members,
 		});
 	})
